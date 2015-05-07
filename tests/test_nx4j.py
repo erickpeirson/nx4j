@@ -13,8 +13,8 @@ class TestWriteGraph(unittest.TestCase):
 
     def test_write(self):
         """
-        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object with the
-        appropriate number of nodes and edges.
+        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object 
+        with the appropriate number of nodes and edges.
         """
 
         graph = nx.generators.random_graphs.barabasi_albert_graph(20,10)
@@ -32,8 +32,8 @@ class TestWriteGraph(unittest.TestCase):
 
     def test_write_labels(self):
         """
-        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object with the
-        appropriate number of nodes and edges.
+        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object
+        with the appropriate number of nodes and edges.
         """
 
         graph = nx.generators.random_graphs.barabasi_albert_graph(20,10)
@@ -48,8 +48,8 @@ class TestWriteGraph(unittest.TestCase):
 
     def test_write_properties(self):
         """
-        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object with the
-        appropriate number of nodes and edges.
+        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object
+        with the appropriate number of nodes and edges.
         """
 
         graph = nx.generators.random_graphs.barabasi_albert_graph(20,10)
@@ -71,8 +71,8 @@ class TestWriteGraph(unittest.TestCase):
 
     def test_write_digraph(self):
         """
-        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object with the
-        appropriate number of nodes and edges.
+        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object
+        with the appropriate number of nodes and edges.
         """
 
         graph = nx.DiGraph()
@@ -90,8 +90,8 @@ class TestWriteGraph(unittest.TestCase):
 
     def test_write_multigraph(self):
         """
-        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object with the
-        appropriate number of nodes and edges.
+        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object
+        with the appropriate number of nodes and edges.
         """
 
         graph = nx.MultiGraph()
@@ -109,8 +109,8 @@ class TestWriteGraph(unittest.TestCase):
 
     def test_write_multidigraph(self):
         """
-        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object with the
-        appropriate number of nodes and edges.
+        :func:`nx4j.write_graph` should return a :class:`py2neo.Graph` object
+        with the appropriate number of nodes and edges.
         """
 
         graph = nx.MultiDiGraph()
